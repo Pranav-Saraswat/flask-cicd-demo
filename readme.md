@@ -1,7 +1,3 @@
-Here’s a **cleaned-up and professional version** of your README file, optimized for GitHub presentation, clarity, and structure:
-
----
-
 # 🚀 Flask CI/CD Pipeline using GitHub, Jenkins, and Webhooks
 
 This project demonstrates a **basic DevOps CI/CD pipeline** that automatically deploys a simple **Flask "Hello World"** app using **GitHub**, **Jenkins**, and **Webhooks**.
@@ -31,7 +27,7 @@ flask-cicd-demo/
 
 ## 🧱 Tech Stack
 
-* Python 3.x
+* Python 3.13
 * Flask
 * Jenkins (running on Windows)
 * GitHub Webhooks
@@ -81,7 +77,7 @@ type "C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword"
 * Run the following command in Command Prompt or PowerShell:
 
 ```bash
-ngrok http 8080
+ngrok http 8085
 ```
 
 * You’ll get a public URL like: `https://abcd1234.ngrok.io`
@@ -151,16 +147,6 @@ git push
    * Installs dependencies
    * Restarts Flask app
 
----
-
-## 📷 Screenshots
-
-| Description               | Screenshot Placeholder  |
-| ------------------------- | ----------------------- |
-| Jenkins Job Configuration | *(Add screenshot here)* |
-| GitHub Webhook Setup      | *(Add screenshot here)* |
-| Flask App in Browser      | *(Add screenshot here)* |
-| Jenkins Console Output    | *(Add screenshot here)* |
 
 ---
 
@@ -180,8 +166,6 @@ Have questions or ideas?
 Feel free to [open an issue](https://github.com/Pranav-Saraswat/flask-cicd-demo/issues) or submit a pull request.
 
 ---
-
-Would you like a diagram of the CI/CD flow to include in this README as well?
 
 
 
